@@ -2,11 +2,9 @@ noseX=0;
 noseY=0;
 var fimg;
 function preload(){
-    filterImg=loadImage("https://i.postimg.cc/SRfd4y0N/images.png");
+    filterImg=loadImage("https://s3-whjr-curriculum-uploads.whjr.online/53b5855c-a511-445f-8b36-e88ecf4b9e6e.png");
 }
-function home(){
-    window.location="home.html"
-}
+
 function setup(){
     canvas=createCanvas(300,300);
     canvas.center()
@@ -53,14 +51,14 @@ function take_snapshot(){
 }
 
 function chasma(){
-    filterImg=loadImage("https://i.postimg.cc/SRfd4y0N/images.png");
+    filterImg=loadImage("https://s3-whjr-curriculum-uploads.whjr.online/53b5855c-a511-445f-8b36-e88ecf4b9e6e.png");
   fimg="goggle";
 }
 function moustache(){
-    filterImg=loadImage("https://i.postimg.cc/Jhc65cn2/moustache.png");
+    filterImg=loadImage("https://s3-whjr-curriculum-uploads.whjr.online/cd72d8b2-c565-49bf-9f7c-2213cf74f393.png");
   fimg="moustache";
 }
 function crown(){
     fimg="crown";
-    filterImg=loadImage("https://i.postimg.cc/KjsN2jpg/crown-removebg-preview.png");
+    filterImg=loadImage("https://s3-whjr-curriculum-uploads.whjr.online/d44927b4-9195-4397-ac10-7d37adb4b167.png");
 }
