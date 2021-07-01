@@ -50,7 +50,7 @@ function take_snapshot(){
     save("Extremo_Funnyo.png");
 }
 
-function chasma(){
+function goggles(){
     filterImg=loadImage("https://s3-whjr-curriculum-uploads.whjr.online/53b5855c-a511-445f-8b36-e88ecf4b9e6e.png");
   fimg="goggle";
 }
